@@ -1,0 +1,40 @@
+body {
+    background-image: url('../images/background.png');
+    background-size: cover;
+}
+
+#heroes {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    width: 850px;
+    height: 358px;
+
+    margin-left: -425px;
+    margin-top: -179px;
+}
+
+.hero {
+    position: absolute;
+
+    width: 250px;
+    height: 358px;
+}
+
+#first {
+    left: 0;
+    top: 0;
+}
+
+#second {
+    left: 50%;
+    top: 0;
+
+    margin-left: -125px;
+}
+
+#third {
+    right: 0;
+    top: 0;
+}
